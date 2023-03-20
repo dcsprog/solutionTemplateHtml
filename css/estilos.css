@@ -49,10 +49,10 @@ header{
 section{
 	font-family: Courier New;
 	text-align: justify;
-	margin-left: 100px;
+	margin-left: 195px;
 	margin-right: 100px;
-	margin-top: 60px;
-	margin-bottom: 60px;
+	margin-top: 15px;
+	margin-bottom: 0px;
 	color: rgb(89, 89, 89);
 }
 
@@ -90,12 +90,12 @@ footer p{
 }
 
 .send{
-	padding-left: 20px;
+	padding-left: 28px;
 	padding-right: auto;
 	color: white;
 	background-color: rgb(52, 178, 146);
-	margin-left: 50px;
-	margin-right: 380px;
+	margin-left: 146px;
+	margin-right: 323px;
 
 }
 
@@ -118,6 +118,7 @@ section ul  ul li  a:link, a:visited {
     text-align: center; 
     text-decoration: none;
     display: inline-block;
+	
 }
 
 section ul  ul li a:hover, a:active {
@@ -126,5 +127,34 @@ section ul  ul li a:hover, a:active {
 
 section ul{
 	list-style: none;
+	margin-left: -141px;
+	display: -webkit-box;
+}
+
+section ul .master{
+	display: block;
 	margin-left: 0px;
+}
+
+section .master ul li {
+	padding-bottom: 0px;
+}
+
+section .master ul .title h3{
+	padding-bottom: 0px;
+	padding:0px 5px ;
+	margin-bottom: 0px;
+	margin:8px 0px; 
+}
+
+section ul li .sp{
+	font-size: 10px;
+}
+
+section ul .cnt{
+margin-left: 10px;
+}
+
+.info {
+	margin-left: -41px;
 }
